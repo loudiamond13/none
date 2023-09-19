@@ -1,0 +1,85 @@
+
+
+nav a:hover
+{
+    border-bottom: 2px red solid;
+
+}
+
+.navbar
+{
+    text-shadow: -1px 0 red, 0 .5px red, .5px 0 red, 0 -1px red;
+    font-size: 1.2em;
+}
+
+button a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+button a:hover
+{
+    border-bottom: black;
+}
+
+.bg-image
+{
+    /*Photo by Dewa Made Bayuputra of Unsplash.com*/
+    background-image: url('../images/background_img1.jpg') ;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+   
+
+   height: 200%;
+
+
+   filter: blur(3px);
+   
+    z-index: -1;
+    
+
+}
+
+.content
+{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   
+  
+}
+
+.card-title
+{
+    text-decoration:underline gray;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 400px) and (max-height:900px) 
+{
+    
+  
+
+    body
+    {
+        margin: 0;
+        
+        padding: 0;
+       
+    }
+
+    
+    .row
+    {
+        width: 100%!important;
+        align-content: center !important;
+       
+      
+    }
+
+
+    
+}
